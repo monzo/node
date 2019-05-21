@@ -1,5 +1,5 @@
-hash: 7a0a9aab20ee4699e0db9c4bcfb365168ba52cf80e5c88c71911689ae7abeac4
-updated: 2019-04-23T18:28:51.45947138Z
+hash: 4ebda7d1fc431e89c6f33ff74221fa3dcbc43c29602d1cdf57cee621ab445e51
+updated: 2019-05-21T14:52:09.223644+01:00
 imports:
 - name: cloud.google.com/go
   version: 3b1ae45394a234c385be014e9a488f2bb6eef821
@@ -14,7 +14,7 @@ imports:
   - autorest/azure
   - autorest/date
 - name: github.com/beorn7/perks
-  version: 4b2b341e8d7715fae06375aa633dbb6e91b3fb46
+  version: 3ac7bf7a47d159a033b107610db8a1b6575507a4
   subpackages:
   - quantile
 - name: github.com/BurntSushi/toml
@@ -49,7 +49,7 @@ imports:
 - name: github.com/go-ini/ini
   version: 3be5ad479f69d4e08d7fe25edf79bf3346bd658e
 - name: github.com/go-playground/locales
-  version: f63010822830b6fe52288ee52d5a1151088ce039
+  version: 630ebbb602847eba93e75ae38bbc7bb7abcf1ff3
   subpackages:
   - currency
 - name: github.com/go-playground/universal-translator
@@ -128,7 +128,7 @@ imports:
   subpackages:
   - simplelru
 - name: github.com/hpcloud/tail
-  version: a30252cb686a21eb2d0b98132633053ec2f7f1e5
+  version: a1dbeea552b7c8df4b542c66073e393de198a800
   subpackages:
   - ratelimiter
   - util
@@ -143,7 +143,7 @@ imports:
 - name: github.com/kardianos/osext
   version: 2bc1f35cddc0cc527b4bc3dce8578fc2a6c11384
 - name: github.com/karrick/godirwalk
-  version: 4e17292779dcc7ed08e10c03bfdd022f7c28b3c3
+  version: 5e617d9cfec6f870e63b168e9a2fb7c490a1c108
 - name: github.com/kelseyhightower/confd
   version: ee4b81d5387320f60f3e622084f26398261cae8b
   repo: https://github.com/projectcalico/confd.git
@@ -156,7 +156,7 @@ imports:
   - pkg/resource/template
   - pkg/run
 - name: github.com/kelseyhightower/envconfig
-  version: dd1402a4d99de9ac2f396cd6fcb957bc2c695ec1
+  version: f611eb38b3875cc3bd991ca91c51d06446afa14c
 - name: github.com/kelseyhightower/memkv
   version: 892bfd468afa0fa476556e7bd7734a087cda08b3
 - name: github.com/leodido/go-urn
@@ -166,7 +166,7 @@ imports:
 - name: github.com/markbates/safe
   version: 6fea05a5732486546a4836b7a1d596c5ec687b98
 - name: github.com/matttproud/golang_protobuf_extensions
-  version: c182affec369e30f25d3eb8cd8a478dee585ae7d
+  version: fc2b8d3a73c4867e51861bbdd5ae3c1f0869dd6a
   subpackages:
   - pbutil
 - name: github.com/mipearson/rfw
@@ -217,7 +217,8 @@ imports:
 - name: github.com/pkg/errors
   version: 27936f6d90f9c8e1145f11ed52ffffbfdb9e0af7
 - name: github.com/projectcalico/felix
-  version: 1dc2ef13deb11893547157c6ad1dfe571fbc049f
+  version: 77f830a17570fad390eca456efbfa3424d2df2bf
+  repo: https://github.com/monzo/felix.git
   subpackages:
   - bpf
   - bpf/packrd
@@ -323,7 +324,7 @@ imports:
   - prometheus/internal
   - prometheus/promhttp
 - name: github.com/prometheus/client_model
-  version: fd36f4220a901265f90734c3183c5f0c91daa0b8
+  version: 6f3806018612930941127f2a7c6c453ba2c527d2
   subpackages:
   - go
 - name: github.com/prometheus/common
@@ -337,7 +338,7 @@ imports:
   subpackages:
   - xfs
 - name: github.com/rogpeppe/go-internal
-  version: 438578804ca6f31be148c27683afc419ce47c06e
+  version: 6f68bf1e81f8552c7dbd47f3bc4371c2db0941a6
   subpackages:
   - modfile
   - module
@@ -358,9 +359,9 @@ imports:
   subpackages:
   - nl
 - name: github.com/vishvananda/netns
-  version: 54f0e4339ce73702a0607f49922aaa1e749b418d
+  version: 13995c7128ccc8e51e9a6bd2b551020a27180abd
 - name: golang.org/x/crypto
-  version: 49796115aa4b964c318aad4f3084fdb41e9aa067
+  version: 9419663f5a44be8b34ca85f08abc5fe1be11f8a3
   subpackages:
   - ssh/terminal
 - name: golang.org/x/net
@@ -416,7 +417,7 @@ imports:
   subpackages:
   - rate
 - name: golang.org/x/tools
-  version: fe54fb35175bb1c0c175e2335e23d7fa90ca987a
+  version: 26647e34d3c04fd3eaef6fb824493b00af7b1b26
   subpackages:
   - go/ast/astutil
   - go/gcexportdata
@@ -426,10 +427,11 @@ imports:
   - imports
   - internal/fastwalk
   - internal/gopathwalk
+  - internal/imports
   - internal/module
   - internal/semver
 - name: google.golang.org/appengine
-  version: 54a98f90d1c46b7731eb8fb305d2a321c30ef610
+  version: b1f26356af11148e710935ed1ac8a7f5702c7612
   subpackages:
   - internal
   - internal/app_identity
@@ -464,8 +466,8 @@ imports:
   - status
   - tap
   - transport
-- name: gopkg.in/fsnotify.v1
-  version: 7be54206639f256967dd82fa767397ba5f8f48f5
+- name: gopkg.in/fsnotify/fsnotify.v1
+  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
 - name: gopkg.in/go-playground/validator.v9
   version: 46b4b1e301c24cac870ffcb4ba5c8a703d1ef475
 - name: gopkg.in/inf.v0
