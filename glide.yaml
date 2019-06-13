@@ -7,7 +7,8 @@ import:
   - pkg/config
   - pkg/run
 - package: github.com/projectcalico/felix
-  version: release-v3.2
+  repo: https://github.com/monzo/felix.git
+  version: 31167a8b517ac84a94510a6cbbc0927c9b84c624
   subpackages:
   - daemon
 - package: github.com/projectcalico/libcalico-go
