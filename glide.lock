@@ -186,7 +186,7 @@ imports:
 - name: github.com/peterbourgon/diskv
   version: 5f041e8faa004a95c88a202771f4cc3e991971e6
 - name: github.com/projectcalico/felix
-  version: 31167a8b517ac84a94510a6cbbc0927c9b84c624
+  version: 551db60d78b81651620095fd0e8ec16925bae7b1
   repo: https://github.com/monzo/felix.git
   subpackages:
   - binder
